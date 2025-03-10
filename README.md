@@ -1,4 +1,4 @@
-tore Manager - Smoothie Shop
+Store Manager - Smoothie Shop
 
 🥤 Overview
 
