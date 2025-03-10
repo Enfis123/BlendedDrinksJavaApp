@@ -34,7 +34,7 @@ public class VendorService {
             sb.append(String.format("🔹 %s: %.2f %s%n", ingredient.getName(), ingredient.getQuantity(), ingredient.getUnit()));
             // Checks if the quantity is below the warning threshold
             if (ingredient.getQuantity() < WARNING_THRESHOLD * getRequiredAmount(ingredient.getName().toLowerCase())) {
-                sb.append("⚠ Warning: Running low on " + ingredient.getName() + "!\n");
+                sb.append("⚠ Warning: Running low on ").append(ingredient.getName()).append("!\n");
             }
         }
         outputArea.appendText(sb.toString());  // Display in the TextArea
