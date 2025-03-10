@@ -1,0 +1,82 @@
+/* Root styling */
+* {
+    -fx-font-family: 'Arial', sans-serif;
+    -fx-font-size: 14px;
+    -fx-base: #ffffff;
+}
+
+/* Global styles */
+.root {
+    -fx-background-color: #f5f5f5;
+}
+
+/* Button styling */
+.button-main {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 10px;
+    -fx-font-size: 16px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0, 0, 5);
+}
+
+.button-main:hover {
+    -fx-background-color: #45a049;
+}
+
+.button-exit {
+    -fx-background-color: #FF4D4D;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 10px;
+    -fx-font-size: 16px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0, 0, 5);
+}
+
+.button-exit:hover {
+    -fx-background-color: #f44336;
+}
+
+/* Label styling */
+.label {
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+    -fx-text-fill: #333333;
+}
+
+#statusLabel {
+    -fx-font-size: 16px;
+    -fx-text-fill: #666666;
+}
+
+/* Text Area styling */
+.output-area {
+    -fx-background-color: #ffffff;
+    -fx-border-radius: 8;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1;
+    -fx-padding: 10;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+/* VBox spacing and padding */
+.center {
+    -fx-padding: 20;
+    -fx-spacing: 15;
+}
+
+.center .button-main,
+.center .button-exit {
+    -fx-min-width: 250px;
+    -fx-padding: 10px;
+}
+
+/* BorderPane styling */
+#outputArea {
+    -fx-border-radius: 8;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1;
+}
